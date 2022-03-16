@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/84d89e01d3.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body id="Home" class="absolute">
+
+    
+
+    <header  class=" fixed w-screen  z-10 bg-donkerGroen  md:bg-white" >
+       <nav class="">
+           <div class="max-x-7xl mx-auto px-4 border">
+                <div class="flex justify-between">
+
+                    <div class="flex space-x-4 items-baseline">
+                        <!--logo-->
+                        <div>
+                            <a class="" href="#">
+                                <img class="md:hidden" src="/src/bijlage/img/Textielpunt.png" alt="" width="100px">
+                                <img class="hidden md:inline" src="/src/bijlage/img/TextielpuntMD.png" alt="" width="100px">
+                              
+                               
+                            </a>
+                           
+                        </div>
+                        <!--primary nav-->
+                        <div > 
+                            <ul class="hidden md:flex items-center space-x-1 text-textkleur">
+                              <li><a href="#Home" class="py-5 px-2 hover:text-oranje hover:cursor-pointer">Home</a></li>
+                              <li><a href="#overOns" class="py-5 px-2 hover:text-oranje hover:cursor-pointer">Over ons</a></li>
+                              <li><a href="#voorWie" class="py-5 px-2 hover:text-oranje hover:cursor-pointer">Voor wie</a></li> 
+                              <li><a href="#container" class="py-5 px-2 hover:text-oranje hover:cursor-pointer">Container</a></li>   
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <!--secondeary nav-->
+                    <div class="flex">
+                        <ul class="hidden md:flex items-center space-x-1 ">
+                           <li><a class=" text-textkleur py-5 px-3" href="#contact">Contact</a></li>
+                           <li><a class="py-5 px-3  bg-donkerGroen hover:bg-lichtGroen text-white rounded transition duration-300 shadow-xl" href="#contact">Volle containers</a></li> 
+                        </ul>
+                    </div>
+
+                        <!--  moblie knop-->
+                        <div class="md:hidden flex items-center mobiel-menu-button ">
+                           <button> <i class=" text-white text-3xl w-8 h-8 fa-solid fa-bars"></i></button>
+                        </div>
+                </div>
+           </div>
+             <!--mobiel-->
+             <div>
+                 <ul  class="hidden bg-donkersteGroen text-white mobiel-menu">
+                     <li><a class=" menuItems block py-2 px-4 text-sm hover:bg-donkerGroen" href="#Home">Home</a></li>
+                     <li><a class=" menuItems block py-2 px-4 text-sm hover:bg-donkerGroen" href="#overOns">Over Ons</a></li>
+                     <li><a class=" menuItems block py-2 px-4 text-sm hover:bg-donkerGroen"  href="#voorWie">Voor wie</a></li>
+                     <li><a class=" menuItems block py-2 px-4 text-sm hover:bg-donkerGroen"href="#contact">Contact</a></li>
+                     <li><a class=" menuItems block py-2 px-4 text-sm hover:bg-donkerGroen" href="#contact">Volle container</a></li>
+                 </ul>
+             </div>
+       </nav>
+
+    </header>
+    <main  class="revealP  lg:mt-60">
+        <!--  HOME SECTION -->
+        <section
+            class=" reveal container flex flex-col-reverse  justify-between items-start mt-24  lg:flex-row lg:mt-0 md:mt-40">
+            <article class=" mt-20 container" data-aos="fade-right" data-aos-duration="1000" >
+                <p class=" text-xl"> - Reduce, reuse, recycle!</p>
+                <h1 class=" text-5xl font-bold">Geef je <span class="text-oranje"> kleren</span> een <br> tweede leven!
+                </h1>
+                <button type="button" class= "bg-donkerGroen text-white rounded-full p-2 w-52 text-xl font-bold 
+                tracking-wider shadow-2xl shadow-green-900 mt-16 mb-16 ">contacteer ons</button>
+
+            </article>
+
+            <img class=" lg:w-8/12" src="/src/bijlage/img/containerHome.png" alt="foto cartoon container">
+
+        </section>
+
+
+        <!---- Over ONS   -->
+        <section  id="overOns" class=" reveal md:bg-achtergrondOverOns  bg-no-repeat bg-cover  md:flex  justify-evenly lg:bg-none  ">
+
+            <h2 class=" hidden text-white text-8xl font-bold mt-40 pr-10 ml-32 md:block lg:text-9xl lg:text-textkleur " data-aos="fade-right" data-aos-duration="1000">
+                Wie <br> zijn <br> we? </h2>
+
+            <h2 class="text-textkleur text-8xl font-bold container capitalize  md:hidden"> wie zijn we? </h2>
+
+            <article
+                class=" bg-donkerGroen rounded-tl-lg rounded-br-lg rounded-bl-lg rounded-tr-lg  ml-3 mr-3 mt-10 md:bg-transparent md:mt-40  "data-aos="fade-right" data-aos-duration="1000">
+
+
+                <img class="rounded-tr-lg md:hidden " src="/src/bijlage/img/fotoOverOns.jpeg" alt="fotoOverOns">
+
+
+                <p
+                    class="  text-white  pb-5 pt-3.5 ml-3 break-normal container md:p-0 md:mx-0  md:text-textkleur md:pb-40 lg:w-96 lg:mr-10 lg:mt-20 lg:text-donkersteGroen     lg:text-lg">
+
+                    <span class="italic  font-bold ">Eco-tex</span> is een vooraanstaande speler in de
+                    transitie van gebruikt textiel naar hergebruik of recycling van textiel. Al het ingezamelde textiel
+                    heeft een duurzame nieuwe bestemming door de levenscyclus te verlengen. Samen met overheden,
+                    bedrijven, stichtingen en verenigingen werken we aan een duurzame en circulaire textielketen. U kunt
+                    uw kleren in ons bekende groenen containers kwijt. Daarnaast werken we met een high tech syteem
+                    waarmee we digitaal direct weten of ons containers vol zitten, dus nooit meer kleren of afval naast
+                    de containers.
+
+
+
+                </p>
+
+            </article>
+
+
+        </section>
+
+        <!--  VOOR wie-->
+
+        <section id="voorWie" class=" max-w-6xl container">
+            <h2 class="text-9xl text-textkleur font-semibold container mb-2">voor wie</h2>
+
+            <!-- gemeente-->
+
+            <article class=" text-white  mx-3 md:flex " data-aos="fade-right" data-aos-duration="1000">
+
+                <img class="hidden  md:inline rounded-full w-2/4 h-fit mt-20 " src="/src/bijlage/img/fotoGemeenteGroot.jpg"
+                    alt="">
+
+                <img class="rounded-tl-2xl rounded-tr-2xl md:h-80 md:w-full max-w-max-lg md:hidden"
+                    src="/src/bijlage/img/fotoGemeente.jpeg" alt="">
+                <div
+                    class="  pb-6 container max-w-max-lg pl-10 bg-donkerGroen rounded-bl-2xl rounded-br-2xl  md:bg-transparent">
+
+                    <h3
+                        class="text-2xl text-textkleur font-bold  md:text-left py-4 md:text-textkleur  ">
+                        Gemeente
+                    </h3>
+
+
+                    <p class=" mt-2 text-white md:text-donkersteGroen pb-4">
+                        Het textiel dat gedeponeerd wordt bij het restafval komt terecht in de verbrandingsoven en kan
+                        niet worden hergebruikt. Dit leidt tot hoge kosten voor de gemeente, grondstofverlies en schade
+                        voor het milieu. Door een samenwerking met HelpPiont voor komt u dat waardevolle grondstoffen
+                        vernietigd worden en bespaart de gemeente verbrandingskosten en CO2-uitstoot.
+                            
+                    </p>
+                    <button class="bg-oranje rounded-full mt-4 mx-auto w-32 shadow-2xl shadow-oranje-900 mt  ">  <a href="#contact">Meer info</a></button>
+                </div>
+
+            </article>
+
+            <!-- zelfstandig-->
+
+
+            <article class=" text-white mx-3 md:flex md:flex-row-reverse mt-20 " data-aos="fade-right" data-aos-duration="1000">
+                <img class="hidden  md:inline rounded-full w-2/4 h-fit mt-20 " src="/src/bijlage/img/zelfstandig.jpg"
+                    alt="">
+
+                <img class="rounded-tl-2xl rounded-tr-2xl md:h-80 md:w-full max-w-max-lg md:hidden"
+                    src="/src/bijlage/img/zelfstandig.jpg" alt="">
+                <div
+                    class="  pb-6 container max-w-max-lg pl-10 bg-donkerGroen rounded-bl-2xl rounded-br-2xl  md:bg-transparent">
+
+                    <h3 class="text-2xl font-bold  md:text-left py-4  text-textkleur ">Zelfstandige
+                    </h3>
+
+                    <p class="  md:text-donkersteGroen pb-2 ">
+
+                        De textielcontainer is niet meer weg te denken in Belgie en mag dus ook zeker niet ontbreken bij
+                        uw organisatie. De gemiddelde consument komt regelmatig bij uw bedrijf, waardoor zij snel wennen
+                        aan de aanwezigheid van de textielcontainer.
+
+                    </p>
+                    <p class=" mt-3 text-donkersteGroen hidden md:block ">
+                        Naast de extra service die u uw klanten biedt is de textielcontainer ook een mooie manier om uw
+                        aandacht voor MVO zichtbaar te maken. Al het textiel dat via uw container wordt ingezameld,
+                        wordt in Belgie gesorteerd met als doel zoveel mogelijk hergebruik te realiseren en (sociale) werkgelegenheid te behouden. 
+                        <br> 
+                        <br>
+                    </p>
+
+                    <p class=" md:text-donkersteGroen">
+                        Deze ondernemingen overhandigen van supermarkten, parkings etc… die met een ophaalcontainer een bijkomende service willen bieden aan de klanten. Alle  zelfstandigen die deelnemen worden vergoed voor deze standplaats.
+
+                    </p>
+                    <button class="bg-oranje rounded-full mt-4 mx-auto w-32 shadow-2xl shadow-oranje-900 mt  ">  <a href="#contact">Meer info</a></button>
+                </div>
+            </article>
+            <!-- privaat-->
+           
+
+        </section>
+
+       
+        <!------------------------------------------school,stichting of verenining------------------------------->
+        <section class="container">
+
+            <article class="container  lg:flex flex-row  justify-evenly lg:ml-14  " data-aos="fade-right" data-aos-duration="1000">
+                <img class="-mt-2 sm:container " src="/src/bijlage/img/world.svg" alt="">
+                <div class="lg:mt-20 ">
+                    <h3 class="font-bold text-3xl capitalize mb-6 text-textkleur text-bold ">school, stichting of
+                        vereniging?</h3>
+                    <p class="mb-2 max-w-xxl  ">Een textielcontainer bij uw school, stichting of vereniging? yes! Vooral
+                        leerlingen/leden maken op deze manier al op jonge leeftijd kennis met hergebruik en
+                        textielrecycling. Jong geleerd is oud gedaan! Het milieubewust maken van mensen is ons
+                        gezamenlijke belang.
+                        <br> <br>
+                        Wat doen wij voor u school
+
+Kledinginzameling in het voordeel van uw school! Scholen kunnen zonder onkosten een centje bijverdienen door een inzamelactie te houden. Voor meer informatie, neem contact op met de verantwoordelijke voor de ophaling.
+                            <br>
+                            <br>
+                            Een ophaalcontainer neemt amper 1,25m2 in beslag. Bovendien krijgt u een aantrekkelijke standplaatsvergoeding.
+                    </p>
+                    <button class="bg-oranje rounded-full mt-4 mx-auto w-32 shadow-2xl shadow-oranje-900 mt  ">  <a href="#contact" class="text-white">Meer info</a></button>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ONS CONTAINERONS CONTAINER  ONS CONTAINER ONS CONTAINER ONS CONTAINER  -->
+        <section id="container" class="container lg:mt-48">
+            <article class=" container mt-20 mb-20 lg:flex   justify-evenly  " data-aos="fade-right" data-aos-duration="1000">
+                <img class="mb-12 lg:w-5/12" src="/src/bijlage/img/containerHome.png" alt="">
+                <div class="lg:ml-28">
+                    <h3 class="text-3xl font-bold text-textkleur mb-6 capitalize ">onze container</h3>
+                    <p class="lg:w-10/12 "> Onze textielcontainer neemt niet veel ruimte in beslag en is daarmee ideaal
+                        om op het schoolplein of het terrein van de stichting of vereniging te plaatsen. De container is
+                        goed zichtbaar, bestand tegen kattenkwaad en wordt handmatig geleegd (dus geen grote
+                        vrachtauto’s voor de deur). De container blijft ons eigendom en daarmee ook onze
+                        verantwoordelijkheid, u bent dus niet aansprakelijk voor eventuele schades door bijv.
+                        vandalisme.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <!--2de TEXTIELCONTAINER 2de TEXTIELCONTAINER 2de TEXTIELCONTAINER 2de TEXTIELCONTAINER -->
+        <section>
+            <img class=" lg:container lg:w-1/2" src="/src/bijlage/img/zelfstandig.jpg" alt="">
+            
+            <article class="container " data-aos="fade-right" data-aos-duration="1000">
+                <h3 class="capitalize font-bold text-2xl text-textkleur mb-2  ">textielcontainer</h3>
+                <p>Textielcontainer
+
+                    Brengt u uw textiel naar de textielcontainer, hou
+                    dan rekening met volgende tips:
+
+                    Steek het textiel in een zak die u goed afsluit.
+                    Dit hoeft geen textielzak te zijn.
+                    Zorg ervoor dat alle textiel droog en proper is.</p>
+            </article>
+
+            <article class="container " data-aos="fade-right" data-aos-duration="1000">
+                <h3 class="text-textkleur text-2xl font-bold mt-4 mb-2 ">Wekelijkse ophaling </h3>
+                <p class="mb-4">
+                    De containers worden wekelijks geledigd en
+                    indien nodig meer. We houden de omgeving van
+                    de container altijd proper.
+                </p>
+            </article>
+
+                <section class="container mb-12">
+                      <h2 class=" font-bold text-textkleur text-2xl ">Wat mag er in ons textielcontainer?</h2>
+                <div class="container  md:flex justify-evenly">
+                <article class="" data-aos="fade-right" data-aos-duration="1000">
+                  
+                    <h3 class="font-bold text-red-400 mt-6">Niet toegestaan</h3>
+
+                    <ul class="list-disc container">
+                        <li>vervuild of nat textiel</li>
+                        <li>tapijten</li>
+                        <li>elektrische dekens</li>
+                        <li>matrassen</li>
+                    </ul>
+    
+                </article>
+                <article data-aos="fade-right" data-aos-duration="1000">
+                    <h3 class="font-bold text-green-400 mt-6">Toegestaan</h3>
+                    <ul class="list-disc container ">
+                        <li>kledij</li>
+                        <li>schoenen (in paar)</li>
+                        <li>handtassen en lederwaren</li>
+                        <li>gordijnen</li>
+                        <li>tafellakens</li>
+                        <li>handdoeken</li>
+                        <li>beddengoed</li>
+                    </ul>
+                 </article>
+               </div>
+            </section> 
+           
+                    
+
+        </section >
+
+
+
+        <!--   Contact -->
+
+        <section id="contact">
+            <h2 class="text-textkleur text-5xl font-bold text mb-6 container content-start sm:text-6xl lg:mt-20 ">Contact</h2>
+            <articl  class="container  lg:flex flex-row-reverse items-center justify-evenly" data-aos="fade-right" data-aos-duration="1000">
+
+                <address
+                    class=" flex flex-col bg-lichtGroen container mt-12
+                    w-60 sm:w-96 sm:text-center rounded-tr-2xl rounded-tl-2xl rounded-bl-2xl rounded-br-xl mb-4 py-10 text-left text-white  shadow-2xl shadow-gray-300 lg:mt-40">
+                    <a class="mb-4" href=""><i class="fa-solid fa-phone mr-3"></i>0499119997</a>
+                    <a class="mb-4" href=""><i class="fa-solid fa-location-dot mr-3"></i>Hazelaarstraat 2 <br> <span
+                            class="ml-6">8500 Kortrijk</span> </a>
+                    <a href=""><i class="fa-solid fa-envelope mr-3"></i>info@Ecotex.be</a>
+
+                </address>
+
+                <article class="container" data-aos="fade-right" data-aos-duration="1000">
+                    <h3 class="font-bold text-3xl text-textkleur mt-20">Zelf een container plaatsen?</h3>
+                    <p class="font-bold mt-2 mb-2 text-textkleur italic">Of hebt u een vraag?</p>
+
+                    <p class="italic text-gray-500 mb-3">Vul onderstaand formulier in en we nemen zo snel mogelijk
+                        contact met u op.</p>
+
+                    <div  class="shadow-xl mb-10 rounded-lg border-4 p-4">
+                        <form class="flex flex-col lg:" action="" method="post">
+
+                            <label for="naam">Naam</label>
+                            <input
+                                class="w-full border-gray-300 rounded-lg shadow-md focus:border-donkerGroen focus:ring-donkerGroen"
+                                type="text" id="naam" name="naam" placeholder="Voor en achternaam">
+
+                            <label for="email">E-mail</label>
+                            <input
+                                class="w-full border-gray-300 rounded-lg shadow-md focus:border-donkerGroen focus:ring-donkerGroen"
+                                type="text" id="email" name="email" placeholder="E-mail">
+
+                            <label for="nummer">Telefoonnummer</label>
+                            <input
+                                class="w-full border-gray-300 rounded-lg shadow-md focus:border-donkerGroen focus:ring-donkerGroen"
+                                type="tel" id="nummer" name="nummer" placeholder="Telefoonnummer">
+
+
+
+                            <label for="adres">Adres</label>
+                            <input
+                                class="w-full border-gray-300 rounded-lg shadow-md focus:border-donkerGroen focus:ring-donkerGroen "
+                                type="text" id="adres" name="adres" placeholder="Adres">
+
+                            <label for="postcode">Postcode</label>
+                            <input
+                                class="w-full border-gray-300 rounded-lg shadow-md focus:border-donkerGroen focus:ring-donkerGroen "
+                                type="text" id="postcode" name="postcode" placeholder="Postcode">
+
+                            <label for="plaats">Plaats</label>
+                            <input
+                                class="w-full border-gray-300 rounded-lg shadow-md focus:border-donkerGroen focus:ring-donkerGroen "
+                                type="text" id="plaats" name="plaats" placeholder="Plaats">
+
+                            <label for="Vragen of opmerkingen">Vragen of opmerkingen</label>
+                            <input
+                                class="w-full border-gray-500 rounded-lg shadow-md  p-10 focus:border-donkerGroen focus:ring-donkerGroen"
+                                type="text" name="Vragen" id="Vragen" placeholder="Stel uw vraag ">
+                            <input
+                                class="border-2 border-donkerGroen mt-2 capitalize font-bold bg-donkerGroen text-white shadow-xl rounded-lg"
+                                type="submit" value="verzenden">
+
+                        </form>
+                    </div>
+                </article>
+
+
+            </article>
+        </section>
+
+
+    </main>
+    <footer class="bg-donkerGroen w-screen p-2 drop-shadow-2xl mb-0">
+        <article class="flex justify-evenly items-center">
+            <p class="text-white ">Privacy & Terms</p>
+            <div class="flex items-center gap-2 hidden">
+                <i class="fa-brands fa-facebook text-white"></i>
+                <i class="fa-brands fa-instagram text-white"></i>
+            </div>
+        </article>
+    </footer>
+
+
+
+</body>
+<script src="index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
